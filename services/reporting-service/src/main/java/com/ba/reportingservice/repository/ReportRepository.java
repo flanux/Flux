@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface ReportRepository extends JpaRepository<Report, Long>{
 
-   return List<Report>.findByType(Integer type); 
+   List<Report> findByType(Integer type);
 }
